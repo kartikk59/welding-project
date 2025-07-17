@@ -39,35 +39,35 @@ export default function Contact() {
     return (
 
 
-        <div className=' bg-gradient-to-r from-purple-100 to-pink-100 pt-10 pb-10' id='Contact' >
+        <div className=' bg-white pt-10 pb-10' id='Contact' >
 
         <form className="flex flex-col items-center text-sm mb-10" onSubmit={onSubmit} >
             <h1 className="text-4xl font-semibold text-slate-700 pb-4 text-center">Contact Us Today</h1>
-            <p className="text-gray-500 text-lg text-center">For all your residential or commercial welding needs, call the professionals at Sydney Welders today on <span className='text-red-600 underline underline-offset-3'> 02 8074 3446 </span> or fill out the form below</p>
-            <p className='text-lg text-gray-500 pb-10'>and we'll get in touch with you.</p>
+            <p className="text-black text-lg text-center">For all your residential or commercial welding needs, call the professionals at Sydney Welders today on <span className='text-blue-600 underline underline-offset-3'> 02 8074 3446 </span> or fill out the form below</p>
+            <p className='text-lg text-black pb-10'>and we'll get in touch with you.</p>
             <h1 className="text-4xl font-semibold text-slate-700 pb-10 text-center">Get a quote for fabrication or welding today</h1>
             
             <div className="flex flex-col md:flex-row items-center gap-8 w-[350px] md:w-[700px]">
                 <div className="w-full">
                     <label className="text-black/70" htmlFor="name">Your Good Name</label>
-                    <input className="bg-white h-12 p-2 mt-2 w-full border border-gray-800/30 rounded outline-none focus:border-2 focus:border-black" type="text" name='name' required placeholder='Enter Name' />
+                    <input className="bg-gray-100 h-12 p-2 mt-2 w-full border border-gray-800/30 rounded outline-none focus:border-2 focus:border-black" type="text" name='name' required placeholder='Enter Name' />
                 </div>
                 <div className="w-full">
                     <label className="text-black/70" htmlFor="email">Email</label>
-                    <input className=" bg-white h-12 p-2 mt-2 w-full border border-gray-800/30 rounded outline-none focus:border-2 focus:border-black" placeholder="Enter Email Address" type="email" required name='email' />
+                    <input className=" bg-gray-100 h-12 p-2 mt-2 w-full border border-gray-800/30 rounded outline-none focus:border-2 focus:border-black" placeholder="Enter Email Address" type="email" required name='email' />
                 </div>
                 <div className="w-full">
                     <label className="text-black/70" htmlFor="phone">Phone Number</label>
-                    <input className=" bg-white h-12 p-2 mt-2 w-full border border-gray-800/30 rounded outline-none focus:border-2 focus:border-black" type="tel" htmlFor="phone" placeholder='Enter Phone Number' name='phone number' required />
+                    <input className=" bg-gray-100 h-12 p-2 mt-2 w-full border border-gray-800/30 rounded outline-none focus:border-2 focus:border-black" type="tel" htmlFor="phone" placeholder='Enter Phone Number' name='phone number' required />
                 </div>
             </div>
         
             <div className="mt-6 w-[350px] md:w-[700px]">
                 <label className="text-black/70" htmlFor="message">Message</label>
-                <textarea className=" bg-white w-full mt-2 p-2 h-40 border border-gray-800/30 rounded resize-none outline-none focus:border-2 focus:border-black" placeholder='Enter Message' required name='message'></textarea>
+                <textarea className=" bg-gray-100 w-full mt-2 p-2 h-40 border border-gray-800/30 rounded resize-none outline-none focus:border-2 focus:border-black" placeholder='Enter Message' required name='message'></textarea>
             </div>
         
-            <button type="submit" className="mt-5 bg-gradient-to-r from-violet-500 via-[#9938CA] to-[#E0724A] cursor-pointer text-white h-12 w-56 px-4 rounded-md active:scale-95 transition">{result? result:"Send Message"}</button>
+            <button type="submit" className="mt-5 bg-blue-600 cursor-pointer text-white h-12 w-56 px-4 rounded-md active:scale-95 transition">{result? result:"Send Message"}</button>
         </form>
         </div>
   

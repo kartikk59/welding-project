@@ -42,7 +42,7 @@ export default function OurWork() {
     //     },
     // ]
   return (
-    <div className='bg-gradient-to-r from-purple-100 to-pink-100 pt-10 pb-10'>
+    <div className='bg-gray-200 pt-10 pb-10'>
   
         <>
             <style>{`
@@ -63,7 +63,7 @@ export default function OurWork() {
 
             <h1 className="text-4xl font-semibold pb-4 text-slate-800 text-center mb-3 font-poppins">Our Work Speaks for Itself</h1>
 
-            <p className="text-slate-600 mb-10 font-poppins text-center text-lg">Explore a selection of our recent projects that showcase the precision, durability, and craftsmanship we bring to every weld.</p>
+            <p className="text-black mb-10 font-poppins text-center text-lg">Explore a selection of our recent projects that showcase the precision, durability, and craftsmanship we bring to every weld.</p>
 
 {/* 
             <div className="overflow-hidden w-full relative max-w-6xl mx-auto mb-10" onMouseEnter={() => setStopScroll(true)} onMouseLeave={() => setStopScroll(false)}>

@@ -5,7 +5,7 @@ import styled from 'styled-components';
 export default function Reliability(){
   return (
     <StyledWrapper>
-        <div className='flex w-full bg-gradient-to-r from-purple-100 to-pink-100 pt-10 pb-10 justify-center items-center3'>
+        <div className='flex w-full bg-gray-200 pt-10 pb-10 justify-center items-center3'>
          
       <div className="card">
       
@@ -13,7 +13,7 @@ export default function Reliability(){
          
       </div>
       <div className="card">
-        <h2>Delivered 6000+ Projects with Excellence</h2>
+        <h2>Delivered 6000+ Projects with Excellence!</h2>
       </div>
       </div>
     </StyledWrapper>
@@ -47,7 +47,7 @@ const StyledWrapper = styled.div`
     content: '';
     position: absolute;
     width: 100px;
-    background-image: linear-gradient(180deg, rgb(0, 183, 255), rgb(255, 48, 255));
+    background-image: linear-gradient(180deg, rgba(31, 31, 238, 1), rgba(18, 18, 229, 1));
     height: 130%;
     animation: rotBGimg 3s linear infinite;
     transition: all 0.2s linear;
@@ -66,7 +66,7 @@ const StyledWrapper = styled.div`
   .card::after {
     content: '';
     position: absolute;
-    background: #07182E;
+    background: black;
     ;
     inset: 5px;
     border-radius: 15px;
