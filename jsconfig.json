@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "baseUrl": "src",
+    "baseUrl": "my-app/my-next-app/src",
     "paths": {
       "@assets/*": ["app/assets/*"]
     }

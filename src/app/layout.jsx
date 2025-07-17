@@ -1,5 +1,6 @@
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import "./global.css";
 import { ToastContainer } from "react-toastify";
 
 const geistSans = Geist({
@@ -25,6 +26,7 @@ export default function RootLayout({ children }) {
       >
         {children}
         <ToastContainer position='top-right' autoClose={3000}/>
+        <SpeedInsights />
       </body>
     </html>
   );
