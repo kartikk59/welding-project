@@ -41,10 +41,10 @@ export default function Contact() {
 
         <div className=' bg-white pt-10 pb-10' id='Contact' >
 
-        <form className="flex flex-col items-center text-sm mb-10" onSubmit={onSubmit} >
+        <form className="flex flex-col items-center text-md mb-10" onSubmit={onSubmit} >
             <h1 className="text-4xl font-semibold text-slate-700 pb-4 text-center">Contact Us Today</h1>
-            <p className="text-black text-lg text-center">For all your residential or commercial welding needs, call the professionals at Sydney Welders today on <span className='text-blue-600 underline underline-offset-3'> 02 8074 3446 </span> or fill out the form below</p>
-            <p className='text-lg text-black pb-10'>and we'll get in touch with you.</p>
+            <p className="text-black text-md text-center">For all your residential or commercial welding needs, call the professionals at Sydney Welders today on <span className='text-blue-600 underline underline-offset-3'> 02 8074 3446 </span> or fill out the form below</p>
+            <p className='text-md text-black pb-10'>and we'll get in touch with you.</p>
             <h1 className="text-4xl font-semibold text-slate-700 pb-10 text-center">Get a quote for fabrication or welding today</h1>
             
             <div className="flex flex-col md:flex-row items-center gap-8 w-[350px] md:w-[700px]">
@@ -64,7 +64,9 @@ export default function Contact() {
         
             <div className="mt-6 w-[350px] md:w-[700px]">
                 <label className="text-black/70" htmlFor="message">Message</label>
-                <textarea className=" bg-gray-100 w-full mt-2 p-2 h-40 border border-gray-800/30 rounded resize-none outline-none focus:border-2 focus:border-black" placeholder='Enter Message' required name='message'></textarea>
+                <textarea className=" bg-gray-100 w-full mt-2 p-2 h-40 border border-gray-800/30 rounded resize-none outline-none focus:border-2 focus:border-black" placeholder='Please describe the project or job that you had like a quote for. Please let us know if the work needs to be done at a specific location, or if the work can be completed in our factory. 
+
+' required name='message'></textarea>
             </div>
         
             <button type="submit" className="mt-5 bg-blue-600 cursor-pointer text-white h-12 w-56 px-4 rounded-md active:scale-95 transition">{result? result:"Send Message"}</button>

@@ -4,7 +4,8 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <div>
+    
+<div>
         <footer className="bg-gray-200 px-6 md:px-16 lg:px-24 xl:px-32 pt-8 w-full text-black">
             <div className="flex flex-col md:flex-row justify-between w-full gap-10 border-b border-gray-500/30 pb-6">
                 <div className="md:max-w-96">
@@ -20,10 +21,10 @@ export default function Footer() {
                     <div>
                         <h2 className="font-semibold mb-5 text-gray-800">Company</h2>
                         <ul className="text-sm space-y-2">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Our Service</a></li>
-                            <li><a href="#">Work</a></li>
-                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/#Services">Our Service</a></li>
+                            <li><a href="/about-us">About Us</a></li>
+                            <li><a href="#Contact">Contact Us</a></li>
                         </ul>
                     </div>
                     <div>
@@ -31,6 +32,8 @@ export default function Footer() {
                         <div className="text-sm space-y-2">
                             <p>+1-212-456-7890</p>
                             <p>contact@example.com</p>
+                            <p>Bussiness Hours:</p>
+                            <p>Location: We service the entire Melbourne region. Visits to our facilities are by appointment only, please call for more details.</p>
                         </div>
                     </div>
                 </div>

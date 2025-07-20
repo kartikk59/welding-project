@@ -1,5 +1,6 @@
 'use client';
 import React from 'react'
+import Link from 'next/link';
 
 export default function Navbar() {
 
@@ -17,7 +18,7 @@ export default function Navbar() {
   return (
     <>
     {/* bg-image-part */}
-    <div className='min-h-screen bg-cover bg-center flex items-center w-full overflow-hidden' id="Header" style={{  backgroundImage: `url("/welding_img.jpg")`}}>
+    {/* <div className='min-h-screen bg-cover bg-center flex items-center w-full overflow-hidden' id="Header" style={{  backgroundImage: `url("/welding_img.jpg")`}}> */}
 
 
    {/* navbar-part */}
@@ -49,10 +50,10 @@ export default function Navbar() {
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex items-center space-x-10 md:pl-28">
-          <li className='text-extrabold relative text-black after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-black after:transition-all after:duration-300 hover:after:w-full'><a href="#Header">Home</a></li>
-          <li className='relative text-black after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-black after:transition-all after:duration-300 hover:after:w-full'><a href="#Services">Our Services</a></li>
-          <li className='relative text-black0 after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-black after:transition-all after:duration-300 hover:after:w-full'><a href="#">Portfolio</a></li>
-          <li className='relative text-black after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-black after:transition-all after:duration-300 hover:after:w-full'><a href="#Contact">Contact Us</a></li>
+          <li className='text-extrabold relative text-black after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-black after:transition-all after:duration-300 hover:after:w-full'><Link href="/">Home</Link></li>
+          <li className='relative text-black after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-black after:transition-all after:duration-300 hover:after:w-full'><Link href="/#Services">Our Services</Link></li>
+          <li className='relative text-black0 after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-black after:transition-all after:duration-300 hover:after:w-full'><Link href="/about-us">About Us</Link></li>
+          <li className='relative text-black after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-black after:transition-all after:duration-300 hover:after:w-full'><Link href="/#Contact">Contact Us</Link></li>
         </ul>
 
         {/* Desktop Button */}
@@ -80,10 +81,10 @@ export default function Navbar() {
         {/* Mobile Menu */}
         <div className={`mobile-menu absolute top-[70px] left-0 w-full bg-white shadow-sm p-6 ${menuOpen ? '' : 'hidden'} md:hidden`}>
           <ul className="flex flex-col space-y-4 text-lg">
-            <li><a href="#Header" className="text-md relative text-bold text-gray-800 after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-black after:transition-all after:duration-300 hover:after:w-full" onClick={handleLinkClick}>Home</a></li>
-            <li><a href="#Services" className="text-md relative text-gray-800 after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-black after:transition-all after:duration-300 hover:after:w-full"  onClick={handleLinkClick}>Our Services</a></li>
-            <li><a href="#" className="text-md relative text-gray-800 after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-black after:transition-all after:duration-300 hover:after:w-full"  onClick={handleLinkClick}>hi</a></li>
-            <li><a className="text-md relative text-gray-800 after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-black after:transition-all after:duration-300 hover:after:w-full" href="#Contact" onClick={handleLinkClick} >Contact Us</a></li>
+            <li><Link href="/" className="text-md relative text-bold text-gray-800 after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-black after:transition-all after:duration-300 hover:after:w-full" onClick={handleLinkClick}>Home</Link></li>
+            <li><Link href="/#Services" className="text-md relative text-gray-800 after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-black after:transition-all after:duration-300 hover:after:w-full" onClick={handleLinkClick}>Our Services</Link></li>
+            <li><Link href="/about-us" className="text-md relative text-gray-800 after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-black after:transition-all after:duration-300 hover:after:w-full"  onClick={handleLinkClick}>About Us</Link></li>
+            <li><Link className="text-md relative text-gray-800 after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-black after:transition-all after:duration-300 hover:after:w-full" href="/#Contact" onClick={handleLinkClick} >Contact Us</Link></li>
           </ul>
 
           <button
@@ -102,59 +103,9 @@ export default function Navbar() {
       </nav>
     </div>
 
-    {/* hero-section */}
+    
 
-<div className="text-left mt-20 px-6 md:px-12 py-20 max-w-2xl">
-  <h1 className="text-white text-5xl sm:text-5xl md:text-5xl font-bold leading-tight">
-    Certified Fabrication,<br /> Bin Manufacturing and <br /> Welding in Melbourne
-  </h1>
-  
-  <button className="mt-8 bg-blue-600 text-white  px-6 py-3 rounded-md flex items-center gap-2 transition-all duration-300 cursor-pointer shadow-[0px_0px_30px_7px_rgba(0,0,0,0.2)]">
-
-<a href="tel:+133444444">
-     <div className='flex items-center justify-center'>
-          <img src="/call.png" className='h-5 ' />
-          <p className='ml-3 text-lg'> +122393939</p>
-          </div>  
-          </a>
-  </button>
-
-  {/* <button type="button" className="w-45 my-6 py-3 active:scale-95 transition border-2 border-white from-violet-500 via-[#9938CA] to-[#E0724A] rounded-md bg-transparent flex items-center justify-center gap-1 cursor-pointer">
-    <a href="#Contact" className='flex'>
-                <img src="/edit.png" alt="" className='h-5 mt-1' />
-                <p className="mb-0.5 text-lg text-white ml-1">Get a Free Quote!</p>
-                </a>
-            </button> */}
-
-
-
-         
-             <style>{`
-            .button-wrapper::before {
-                animation: spin-gradient 4s linear infinite;
-            }
-        
-            @keyframes spin-gradient {
-                from {
-                    transform: rotate(0deg);
-                }
-        
-                to {
-                    transform: rotate(360deg);
-                }
-            }
-        `}</style>
-        <div className="mt-4 relative inline-block p-0.5 rounded-full overflow-hidden hover:scale-105 transition duration-300 active:scale-100 before:content-[''] before:absolute before:inset-0 before:bg-blue-500 button-wrapper cursor-pointer">
-          <a href="#Contact">
-            <button className="relative z-10 bg-gray-800 text-white rounded-full px-8 py-4 font-medium text-sm">Get a Free Quote!</button></a>
-        </div>
-
-            {/* <h1 className="text-white text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
-   Your Next Project Deserves Precision. Let’s Get Started Today!
-  </h1> */}
-</div>
-
-    </div>
+    {/* </div> */}
     </>
   )
 }
