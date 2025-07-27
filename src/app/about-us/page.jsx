@@ -9,7 +9,7 @@ export default function AboutPage() {
   <div className="w-full md:w-1/2 flex justify-center">
     <img
       src="/about_us_img.jpg"
-      className="w-full max-w-md h-auto rounded-2xl"
+      className="w-full max-w-md h-auto rounded-2xl mt-5"
       alt="about us"
     />
   </div>
@@ -47,69 +47,69 @@ export default function AboutPage() {
 
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
   
-     <div className="group bg-black text-white p-6 rounded-xl shadow-md hover:shadow-xl hover:-translate-y-2 transition-all duration-300 ease-in-out cursor-pointer relative overflow-hidden">
+     <div className="group bg-gray-700 text-white p-6 rounded-xl shadow-md hover:shadow-xl hover:-translate-y-2 transition-all duration-300 ease-in-out cursor-pointer relative overflow-hidden">
   <div className="flex space-x-2 mb-3">
     <span className="w-3 h-3 rounded-full bg-red-500" />
     <span className="w-3 h-3 rounded-full bg-yellow-400" />
     <span className="w-3 h-3 rounded-full bg-green-500" />
   </div>
   <span className="block text-xl font-semibold mb-2">⭐ Proven Expertise</span>
-  <p className="text-gray-400 group-hover:text-white transition-colors duration-300">
+  <p className="text-white transition-colors duration-300">
     With years of hands-on experience, our skilled team handles everything from minor metal repairs to complex fabrication jobs with precision and confidence.
   </p>
 </div>
 
 
 
-      <div className="group bg-black text-white p-6 rounded-xl shadow-md hover:shadow-xl hover:-translate-y-2 transition-all duration-300 ease-in-out cursor-pointer relative overflow-hidden">
+      <div className="group bg-gray-700 text-white p-6 rounded-xl shadow-md hover:shadow-xl hover:-translate-y-2 transition-all duration-300 ease-in-out cursor-pointer relative overflow-hidden">
   <div className="flex space-x-2 mb-3">
     <span className="w-3 h-3 rounded-full bg-red-500" />
     <span className="w-3 h-3 rounded-full bg-yellow-400" />
     <span className="w-3 h-3 rounded-full bg-green-500" />
   </div>
   <span className="block text-xl font-semibold mb-2">🛠 Excellent Craftsmanship</span>
-  <p className="text-gray-400 group-hover:text-white transition-colors duration-300">
+  <p className="text-white transition-colors duration-300">
    Using advanced welding tools and equipment, we follow industry-leading processes to ensure every job benefits from excellent craftsmanship and high-quality finishes.
   </p>
 </div>
 
 
 
-      <div className="group bg-black text-white p-6 rounded-xl shadow-md hover:shadow-xl hover:-translate-y-2 transition-all duration-300 ease-in-out cursor-pointer relative overflow-hidden">
+      <div className="group bg-gray-700 text-white p-6 rounded-xl shadow-md hover:shadow-xl hover:-translate-y-2 transition-all duration-300 ease-in-out cursor-pointer relative overflow-hidden">
   <div className="flex space-x-2 mb-3">
     <span className="w-3 h-3 rounded-full bg-red-500" />
     <span className="w-3 h-3 rounded-full bg-yellow-400" />
     <span className="w-3 h-3 rounded-full bg-green-500" />
   </div>
   <span className="block text-xl font-semibold mb-2">&#129309; Locally Trusted</span>
-  <p className="text-gray-400 group-hover:text-white transition-colors duration-300">
+  <p className="text-white transition-colors duration-300">
     Based in Melbourne, we proudly serve our community with personalized service that bigger companies often can’t match.
   </p>
 </div>
 
 
-<div className="group bg-black text-white p-6 rounded-xl shadow-md hover:shadow-xl hover:-translate-y-2 transition-all duration-300 ease-in-out cursor-pointer relative overflow-hidden">
+<div className="group bg-gray-700 text-white p-6 rounded-xl shadow-md hover:shadow-xl hover:-translate-y-2 transition-all duration-300 ease-in-out cursor-pointer relative overflow-hidden">
   <div className="flex space-x-2 mb-3">
     <span className="w-3 h-3 rounded-full bg-red-500" />
     <span className="w-3 h-3 rounded-full bg-yellow-400" />
     <span className="w-3 h-3 rounded-full bg-green-500" />
   </div>
   <span className="block text-xl font-semibold mb-2">⏱ Reliable & On-Time</span>
-  <p className="text-gray-400 group-hover:text-white transition-colors duration-300">
+  <p className="text-white transition-colors duration-300">
     We value your time. That’s why we’re committed to meeting deadlines without compromising on quality.
   </p>
 </div>
 
 
 
-    <div className="group bg-black text-white p-6 rounded-xl shadow-md hover:shadow-xl hover:-translate-y-2 transition-all duration-300 ease-in-out cursor-pointer relative overflow-hidden">
+    <div className="group bg-gray-700 text-white p-6 rounded-xl shadow-md hover:shadow-xl hover:-translate-y-2 transition-all duration-300 ease-in-out cursor-pointer relative overflow-hidden">
   <div className="flex space-x-2 mb-3">
     <span className="w-3 h-3 rounded-full bg-red-500" />
     <span className="w-3 h-3 rounded-full bg-yellow-400" />
     <span className="w-3 h-3 rounded-full bg-green-500" />
   </div>
   <span className="block text-xl font-semibold mb-2">🔧 Wide Range of Welding Services</span>
-  <p className="text-gray-400 group-hover:text-white transition-colors duration-300">
+  <p className="text-white transition-colors duration-300">
     From TIG and MIG welding to aluminium welding to stainless steel welding to welding repair, we deliver a wide range of services for both residential and commercial projects.
   </p>
 </div>
