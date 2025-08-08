@@ -18,6 +18,12 @@ export default function Contact() {
 
     formData.append("access_key", accessKey);
 
+  if (!accessKey || !apiUrl) {
+  toast.error("Form configuration is missing. Please contact support.");
+  return;
+}
+
+
     const response = await fetch(apiUrl, {
       method: "POST",
       body: formData

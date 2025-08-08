@@ -27,7 +27,7 @@ export default function Footer() {
                     <div>
                         <h2 className="font-semibold mb-5 text-gray-800">Get in touch</h2>
                         <div className="text-sm space-y-2">
-                            <p>(04) 3359 3903</p>
+                            <p>(04) 3359-3903</p>
                             <p>jbinsrepairs@gmail.com</p>
                             <p>Location: We service the entire Melbourne region. Please call for more details.</p>
                         </div>
