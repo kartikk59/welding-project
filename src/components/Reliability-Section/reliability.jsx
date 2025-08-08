@@ -1,9 +1,12 @@
 'use client';
 import React from 'react';
 import styled from 'styled-components';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default function Reliability(){
-  return (
+ 
+
+return(
     <StyledWrapper>
         <div className='flex w-full bg-gray-200 pt-10 pb-10 justify-center items-center3'>
          
@@ -74,4 +77,4 @@ const StyledWrapper = styled.div`
   /* .card:hover:before {
     background-image: linear-gradient(180deg, rgb(81, 255, 0), purple);
     animation: rotBGimg 3.5s linear infinite;
-  } */`;
+  } */`

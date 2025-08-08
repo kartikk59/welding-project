@@ -17,8 +17,7 @@ export default function Navbar() {
 
   return (
     <>
-    {/* bg-image-part */}
-    {/* <div className='min-h-screen bg-cover bg-center flex items-center w-full overflow-hidden' id="Header" style={{  backgroundImage: `url("/welding_img.jpg")`}}> */}
+  
 
 
    {/* navbar-part */}
@@ -27,7 +26,7 @@ export default function Navbar() {
         {/* upper-bar */}
       <div className="text-center font-medium py-2 bg-blue-500 flex justify-between items-center text-white">
   {/* Left: Location */}
-  <a href='https://www.google.com/maps/place/Unit+3%2F90+Colemans+Rd,+Carrum+Downs+VIC+3201,+Australia/@-38.0897588,145.1662496,19z/data=!3m1!4b1!4m6!3m5!1s0x6ad60ce3b7350081:0xba1379acb75f45a6!8m2!3d-38.0897599!4d145.1668933!16s%2Fg%2F11khd33ssq?entry=ttu&g_ep=EgoyMDI1MDcxMy4wIKXMDSoASAFQAw%3D%3D' target='_blank' className="pl-2 md:pl-10 lg:pl-14 xl:pl-10 flex items-center">
+  <a href='https://www.google.com/maps/place/78+Colemans+Rd,+Carrum+Downs+VIC+3201,+Australia/@-38.0898818,145.1662238,19z/data=!3m1!4b1!4m6!3m5!1s0x6ad60ce3b9f28301:0xc1d66312e7ea6613!8m2!3d-38.0898829!4d145.1668675!16s%2Fg%2F11kqwx45sz?entry=ttu&g_ep=EgoyMDI1MDgwNS4wIKXMDSoASAFQAw%3D%3D' target='_blank' className="pl-2 md:pl-10 lg:pl-14 xl:pl-10 flex items-center">
     <img src="/location.png" alt="Location Icon" className="w-5 h-5" />
     <span className=" font-bold">Location: 3/90 Colemans rd, Carrum Downs, Victoria [3201]</span>
   </a>
@@ -61,7 +60,7 @@ export default function Navbar() {
           <a href="tel:+12334848">
           <div className='flex items-center justify-center'>
           <img src="/call.png" alt="phone icon" className='h-5 ' />
-          <p className='ml-3 text-lg'>+122393939</p>
+          <p className='ml-3 text-lg'>(04) 3359 3903</p>
           </div>
           </a>
         </button>
@@ -79,7 +78,7 @@ export default function Navbar() {
         </button>
 
         {/* Mobile Menu */}
-        <div className={`mobile-menu absolute top-[70px] left-0 w-full bg-white shadow-sm p-6 ${menuOpen ? '' : 'hidden'} md:hidden`}>
+        <div className={`mobile-menu absolute top-[80px] left-0 w-full bg-white shadow-sm p-6 ${menuOpen ? '' : 'hidden'} md:hidden`}>
           <ul className="flex flex-col space-y-4 text-lg">
             <li><Link href="/" className="text-md relative text-bold text-gray-800 after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-black after:transition-all after:duration-300 hover:after:w-full" onClick={handleLinkClick}>Home</Link></li>
             <li><Link href="/#Services" className="text-md relative text-gray-800 after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-black after:transition-all after:duration-300 hover:after:w-full" onClick={handleLinkClick}>Our Services</Link></li>
@@ -89,11 +88,11 @@ export default function Navbar() {
 
           <button
             type="button"
-            className="bg-blue-600 text-gray-600 border border-white mt-6 text-sm active:scale-95 transition-all w-40 h-11 rounded-full text-white cursor-pointer">
+            className="bg-blue-600 text-gray-600 border border-white mt-6 text-sm active:scale-95 transition-all w-50 h-11 rounded-full text-white cursor-pointer">
               <a href="tel:+1234567890">
            <div className='flex items-center justify-center'>
           <img src="/call.png" alt='call icon' className='h-5 ' />
-          <p className='ml-3 text-lg'>+122393939</p>
+          <p className='ml-3 text-lg'>(04) 3359 3903</p>
           </div>
           </a>
           </button>

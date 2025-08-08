@@ -43,9 +43,9 @@ export default function Contact() {
 
         <form className="flex flex-col items-center text-md mb-10" onSubmit={onSubmit} >
             <h1 className="text-4xl font-semibold text-slate-700 pb-4 text-center">Contact Us Today</h1>
-            <p className="text-black text-md text-center">For all your residential or commercial welding needs, call the professionals at Sydney Welders today on <span className='text-blue-600 underline underline-offset-3'> 02 8074 3446 </span> or fill out the form below</p>
+            <p className="text-black text-md text-center">For all your residential or commercial welding needs, call the professionals at J. Fabricators today on <span className='text-blue-600 underline underline-offset-3'> (04) 3359 3903 </span> or fill out the form below</p>
             <p className='text-md text-black pb-10'>and we'll get in touch with you.</p>
-            <h1 className="text-4xl font-semibold text-slate-700 pb-10 text-center">Get a quote for fabrication or welding today</h1>
+            <h1 className="text-4xl font-semibold text-slate-700 pb-10 text-center">Get a quote for fabrication or welding today!</h1>
             
             <div className="flex flex-col md:flex-row items-center gap-8 w-[350px] md:w-[700px]">
                 <div className="w-full">

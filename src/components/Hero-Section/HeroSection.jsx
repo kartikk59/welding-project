@@ -15,7 +15,7 @@ export default function HeroSection() {
 <a href="tel:+133444444">
      <div className='flex items-center justify-center'>
           <img src="/call.png" className='h-5 ' />
-          <p className='ml-3 text-lg'> +122393939</p>
+          <p className='ml-3 text-lg'>(04) 3359 3903 </p>
           </div>  
           </a>
   </button>
@@ -47,7 +47,7 @@ export default function HeroSection() {
         `}</style>
         <div className="mt-4 relative inline-block p-0.5 rounded-full overflow-hidden hover:scale-105 transition duration-300 active:scale-100 before:content-[''] before:absolute before:inset-0 before:bg-blue-500 button-wrapper cursor-pointer">
           <a href="#Contact">
-            <button className="relative z-10 bg-gray-800 text-white rounded-full px-8 py-4 font-medium text-sm">Get a Free Quote!</button></a>
+            <button className="relative z-10 bg-gray-800 text-white rounded-full px-11 py-4 font-medium text-sm">Get a Free Quote!</button></a>
         </div>
 
             {/* <h1 className="text-white text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
