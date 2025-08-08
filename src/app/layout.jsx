@@ -1,5 +1,5 @@
 import { SpeedInsights } from '@vercel/speed-insights/next';
-import { Geist, Geist_Mono } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next"
 import "./global.css";
 import { ToastContainer } from "react-toastify";
 import Navbar from '../components/Navbar';
