@@ -40,9 +40,9 @@ export default function Navbar() {
 
       <nav className="relative h-[80px] flex items-center justify-between px-4 md:px-16 lg:px-24 xl:px-32 bg-white text-gray-900 transition-all shadow-sm">
         {/* Logo */}
-        <div className=''>
+        <div>
         <a href="/" >
-           <img src="/logo.png" alt="" className='h-25 mt-2'/> 
+           <img src="/logo2.png" alt="" className='h-40'/> 
             
         </a>
         </div>

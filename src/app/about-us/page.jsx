@@ -131,7 +131,7 @@ export default function AboutPage() {
         <footer className="bg-gray-200 px-6 md:px-16 lg:px-24 xl:px-32 pt-8 w-full text-black">
             <div className="flex flex-col md:flex-row justify-between w-full gap-10 border-b border-gray-500/30 pb-6">
                 <div className="md:max-w-96">
-                   <img src="/logo.png" alt="logo" className='h-30' />
+                   <img src="/logo2.png" alt="logo2" className='h-45' />
                       <p>
                        <span className='text-blue-600 underline underline-offset-2'>J. Fabricators</span> is a trusted welding and metal fabrication company based in Victoria, Melbourne. Specializing in high-quality, reliable welding solutions for residential, commercial, and industrial clients. With a team of certified welders and fabricators, we bring over 3 years of hands-on experience to every project—delivering strong, precise, and lasting results.
                     </p>
