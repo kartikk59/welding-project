@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
        <head>
         <title>Fabrication, Bin Manufacturing & Welding</title>
         <meta name="description" content="A welding services website built with Next.js and Tailwind CSS" />
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="/favicon.ico" />
       </head>
       <body>
         {children}
