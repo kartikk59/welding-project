@@ -12,7 +12,7 @@ export default function HeroSection() {
   
   <button className="mt-8 bg-blue-600 text-white  px-6 py-3 rounded-md flex items-center gap-2 transition-all duration-300 cursor-pointer shadow-[0px_0px_30px_7px_rgba(0,0,0,0.2)]">
 
-<a href="tel:+133444444">
+<a href="tel:+61 0433593903">
      <div className='flex items-center justify-center'>
           <img src="/call.png" className='h-5 ' />
           <p className='ml-3 text-lg'>(04) 3359 3903 </p>

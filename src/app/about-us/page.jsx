@@ -157,7 +157,7 @@ export default function AboutPage() {
                 </div>
             </div>
             <p className="pt-4 text-center text-xs md:text-sm pb-5">
-                Copyright 2025 © Company name. All Right Reserved.
+                Copyright 2025 © J Fabricators | All Right Reserved.
             </p>
         </footer>
     </div>

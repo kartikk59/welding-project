@@ -57,7 +57,7 @@ export default function Navbar() {
 
         {/* Desktop Button */}
         <button className="md:inline hidden bg-blue-600 ml-20 px-5 py-2 rounded-md active:scale-95 transition-all text-white cursor-pointer">
-          <a href="tel:+12334848">
+          <a href="tel:+61 0433593903">
           <div className='flex items-center justify-center'>
           <img src="/call.png" alt="phone icon" className='h-5 ' />
           <p className='ml-3 text-lg'>(04) 3359 3903</p>
@@ -89,7 +89,7 @@ export default function Navbar() {
           <button
             type="button"
             className="bg-blue-600 text-gray-600 border border-white mt-6 text-sm active:scale-95 transition-all w-50 h-11 rounded-full text-white cursor-pointer">
-              <a href="tel:+1234567890">
+              <a href="tel:+61 0433593903">
            <div className='flex items-center justify-center'>
           <img src="/call.png" alt='call icon' className='h-5 ' />
           <p className='ml-3 text-lg'>(04) 3359 3903</p>
